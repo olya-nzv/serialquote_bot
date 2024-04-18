@@ -39,12 +39,12 @@ def message_handler(message: types.Message):
     
     bot.send_message(
         chat_id=message.chat.id,
-        text=f'Определение:\n<code>{definition}</code>',
+        text=f'your quote:\n<code>{definition}</code>',
     )
 
     bot.send_message(
         chat_id=message.chat.id,
-        text=f'Come on next',
+        text=f'come on next',
     )
 
 def main():
