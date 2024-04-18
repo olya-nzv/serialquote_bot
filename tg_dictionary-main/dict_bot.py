@@ -1,6 +1,6 @@
 from telebot import TeleBot, types
 
-bot = TeleBot(token='7180692340:AAHGyart816DhdMVKkdeJpfUEmFgspBB5Wc', parse_mode='html') 
+bot = TeleBot(token='my token', parse_mode='html') 
 
 DEFINITOINS = {
     'sopranos': 'Genetic predispositions are only that: predispositions',
